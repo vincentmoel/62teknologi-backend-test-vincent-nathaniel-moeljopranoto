@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('image_url');
             $table->time('open_time');
+            $table->time('close_time');
             $table->string('url');
             $table->integer('review_count')->nullable();
             $table->float('rating')->nullable();

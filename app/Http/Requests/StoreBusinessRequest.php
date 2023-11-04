@@ -26,6 +26,7 @@ class StoreBusinessRequest extends FormRequest
             'name'              => 'required',
             'image_url'         => 'required',
             'open_time'         => 'required',
+            'close_time'        => 'required',
             'url'               => 'required',
             'latitude'          => 'required',
             'longitude'         => 'required',
