@@ -14,7 +14,7 @@ class BusinessController extends Controller
 {
     public function index()
     {
-        $businesses = Business::get();
+        $businesses = Business::filterQuery()->get();
         return Response::build(
             200,
             [

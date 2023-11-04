@@ -15,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('businesses/search', [BusinessController::class, 'index']);
 Route::apiResource('businesses', BusinessController::class);
 Route::patch('businesses/{businessId}/restore', [BusinessController::class, 'restore']);
